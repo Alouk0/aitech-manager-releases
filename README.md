@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/aitech-manager-websocket-pro-banner.png" alt="AiTECH Manager WebSocket Pro — Secure VPS Provisioning and Networking Automation" width="100%">
+</p>
+
 # AiTECH Manager
 
 **Secure VPS provisioning and multi-protocol networking management for Ubuntu and Debian servers.**
