@@ -1,0 +1,107 @@
+name: Technical bug report
+description: Report a reproducible AiTECH Manager software or installer problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an AiTECH Manager problem.
+        Do not include licence keys, passwords, private keys, tokens, customer data, or unsanitized logs.
+        Security vulnerabilities must use the private security advisory link instead.
+
+  - type: dropdown
+    id: release
+    attributes:
+      label: Affected release
+      options:
+        - v1.2.0-websocket-pro.1
+        - v1.2.0-websocket-pro
+        - Earlier release
+        - Unknown
+    validations:
+      required: true
+
+  - type: dropdown
+    id: installation
+    attributes:
+      label: Installation method
+      options:
+        - Public HTTPS installer
+        - Offline release bundle
+        - Existing installation upgrade
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: Operating system and version
+      placeholder: Ubuntu 24.04 LTS amd64
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected component
+      options:
+        - Installer or provisioning
+        - Licence verification
+        - OpenVPN WebSocket or WSS
+        - OpenVPN UDP or TCP
+        - SSH, Dropbear, Stunnel or SSHWS
+        - Xray
+        - Hysteria2
+        - DNSTT or BadVPN
+        - Nginx or TLS
+        - Manager interface
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: Explain what happened and its operational impact.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest reliable sequence that reproduces the problem.
+      placeholder: |
+        1. Run ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostic output
+      description: Remove all credentials, licence keys, domains, public IP addresses, usernames, certificates and customer data.
+      render: shell
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I verified the release checksum and reproduced this on a supported platform.
+          required: true
+        - label: I removed all credentials, secrets and customer information.
+          required: true
+        - label: This is not a confidential security vulnerability or licence-support request.
+          required: true
