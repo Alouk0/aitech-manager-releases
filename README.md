@@ -45,6 +45,12 @@ WebSocket Pro adds a dedicated OpenVPN RFC 6455/WSS bridge, persistent systemd l
 - A public domain with its DNS A record pointing to the VPS
 - Public TCP ports 80 and 443 available for certificate and HTTPS services
 
+## Licence Access
+
+AiTECH Manager requires a valid licence key. For licensing, pricing, installer access, or deployment support, contact AiTECH NETWORKS directly:
+
+[![Message on Telegram](https://img.shields.io/badge/Message_on_Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Aluk0)
+
 ## Installation
 
 Run on a clean supported VPS:
