@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Licence, pricing and deployment support
+    url: https://t.me/Aluk0
+    about: Message AiTECH NETWORKS for licence access, pricing, installer assistance and deployment support.
+  - name: Report a security vulnerability
+    url: https://github.com/Alouk0/aitech-manager-releases/security/advisories/new
+    about: Submit sensitive vulnerability reports privately through GitHub Security Advisories.
