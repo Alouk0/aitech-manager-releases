@@ -1,9 +1,9 @@
 # AiTECH Manager
 
-**Secure VPS provisioning and multi-protocol networking management for Ubuntu servers.**
+**Secure VPS provisioning and multi-protocol networking management for Ubuntu and Debian servers.**
 
 [![Latest Release](https://img.shields.io/github/v/release/Alouk0/aitech-manager-releases?display_name=tag&style=flat-square)](https://github.com/Alouk0/aitech-manager-releases/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-Ubuntu%2024.04%20LTS-E95420?style=flat-square&logo=ubuntu&logoColor=white)](#supported-platform)
+[![Platforms](https://img.shields.io/badge/platforms-Ubuntu%2020.04%2B%20%7C%20Debian%2011%2B-2F3A4A?style=flat-square&logo=linux&logoColor=white)](#supported-platform)
 [![Architecture](https://img.shields.io/badge/architecture-amd64-2F3A4A?style=flat-square)](#supported-platform)
 [![License](https://img.shields.io/badge/license-proprietary-1F6FEB?style=flat-square)](#licensing)
 
@@ -33,13 +33,14 @@ AiTECH Manager is a licensed infrastructure platform that automates fresh-VPS pr
 
 ## Current Release
 
-**[AiTECH Manager 1.2.0 WebSocket Pro](https://github.com/Alouk0/aitech-manager-releases/releases/tag/v1.2.0-websocket-pro)**
+**[AiTECH Manager 1.2.0 WebSocket Pro](https://github.com/Alouk0/aitech-manager-releases/releases/tag/v1.2.0-websocket-pro.1)**
 
 WebSocket Pro adds a dedicated OpenVPN RFC 6455/WSS bridge, persistent systemd lifecycle, HTTPS-only Nginx routing, Manager status integration, provisioning integration, backend recovery and reboot persistence.
 
 ## Supported Platform
 
-- Ubuntu 24.04 LTS
+- Ubuntu 20.04 LTS, 22.04 LTS, and 24.04 LTS
+- Debian 11, 12, and 13
 - Linux amd64
 - Root or passwordless sudo access
 - A public domain with its DNS A record pointing to the VPS
