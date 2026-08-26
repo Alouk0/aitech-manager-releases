@@ -5,7 +5,7 @@
 [![Latest Release](https://img.shields.io/github/v/release/Alouk0/aitech-manager-releases?display_name=tag&style=flat-square)](https://github.com/Alouk0/aitech-manager-releases/releases/latest)
 [![Platforms](https://img.shields.io/badge/platforms-Ubuntu%2020.04%2B%20%7C%20Debian%2011%2B-2F3A4A?style=flat-square&logo=linux&logoColor=white)](#supported-platform)
 [![Architecture](https://img.shields.io/badge/architecture-amd64-2F3A4A?style=flat-square)](#supported-platform)
-[![License](https://img.shields.io/badge/license-proprietary-1F6FEB?style=flat-square)](#licensing)
+[![License](https://img.shields.io/badge/license-proprietary-1F6FEB?style=flat-square)](LICENSE.md)
 
 > This repository is the official checksum-verified binary distribution channel for AiTECH Manager.
 
@@ -85,3 +85,10 @@ AiTECH Manager is proprietary software. Access and use require a valid AiTECH Ma
 ---
 
 <div align="center"><sub>Powered by AiTECHNETWORKS LIMITED RC 1900411</sub></div>
+
+## Documentation
+
+- [Release changelog](CHANGELOG.md)
+- [Security policy](SECURITY.md)
+- [Proprietary licence notice](LICENSE.md)
+- [Current WebSocket Pro release](https://github.com/Alouk0/aitech-manager-releases/releases/tag/v1.2.0-websocket-pro.1)
